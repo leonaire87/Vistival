@@ -17,6 +17,11 @@
 		4168A6F323E1962700B45718 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4168A6F223E1962600B45718 /* logo.jpg */; };
 		4168A6FB23E1BD2000B45718 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168A6FA23E1BD2000B45718 /* Artist.swift */; };
 		4168A6FD23E1CCD400B45718 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168A6FC23E1CCD400B45718 /* DataSource.swift */; };
+		41C185DE23E2DBF100DD4608 /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C185DD23E2DBF100DD4608 /* ArtistTableViewCell.swift */; };
+		41C185E023E2EE2F00DD4608 /* ArtistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C185DF23E2EE2F00DD4608 /* ArtistDetailViewController.swift */; };
+		41C185E223E3156A00DD4608 /* MapPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C185E123E3156A00DD4608 /* MapPoints.swift */; };
+		41C185E423E317F300DD4608 /* DataSourceMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C185E323E317F300DD4608 /* DataSourceMap.swift */; };
+		41C185E623E318AA00DD4608 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C185E523E318AA00DD4608 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		4168A6F223E1962600B45718 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 		4168A6FA23E1BD2000B45718 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		4168A6FC23E1CCD400B45718 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		41C185DD23E2DBF100DD4608 /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
+		41C185DF23E2EE2F00DD4608 /* ArtistDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailViewController.swift; sourceTree = "<group>"; };
+		41C185E123E3156A00DD4608 /* MapPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPoints.swift; sourceTree = "<group>"; };
+		41C185E323E317F300DD4608 /* DataSourceMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMap.swift; sourceTree = "<group>"; };
+		41C185E523E318AA00DD4608 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +94,8 @@
 			children = (
 				4168A6FA23E1BD2000B45718 /* Artist.swift */,
 				4168A6FC23E1CCD400B45718 /* DataSource.swift */,
+				41C185E123E3156A00DD4608 /* MapPoints.swift */,
+				41C185E323E317F300DD4608 /* DataSourceMap.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -99,6 +111,9 @@
 			isa = PBXGroup;
 			children = (
 				4168A6E023E18B3E00B45718 /* ViewController.swift */,
+				41C185DD23E2DBF100DD4608 /* ArtistTableViewCell.swift */,
+				41C185DF23E2EE2F00DD4608 /* ArtistDetailViewController.swift */,
+				41C185E523E318AA00DD4608 /* MapViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -176,10 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C185E423E317F300DD4608 /* DataSourceMap.swift in Sources */,
 				4168A6E123E18B3E00B45718 /* ViewController.swift in Sources */,
+				41C185E223E3156A00DD4608 /* MapPoints.swift in Sources */,
+				41C185E623E318AA00DD4608 /* MapViewController.swift in Sources */,
 				4168A6DD23E18B3E00B45718 /* AppDelegate.swift in Sources */,
 				4168A6FB23E1BD2000B45718 /* Artist.swift in Sources */,
 				4168A6FD23E1CCD400B45718 /* DataSource.swift in Sources */,
+				41C185E023E2EE2F00DD4608 /* ArtistDetailViewController.swift in Sources */,
+				41C185DE23E2DBF100DD4608 /* ArtistTableViewCell.swift in Sources */,
 				4168A6DF23E18B3E00B45718 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
