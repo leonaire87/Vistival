@@ -11,12 +11,18 @@ import MapKit
 
 class mapPoints: NSObject, MKAnnotation {
 
-var coordinate: CLLocationCoordinate2D
-var tekst:String?
 
-init(coordinate:CLLocationCoordinate2D, tekst:String?) {
+    var coordinate: CLLocationCoordinate2D
+    var title: String?
+    var categorie: String?
+    
+    
+    
+
+    init(coordinate:CLLocationCoordinate2D, title:String?, categorie: String?) {
     self.coordinate = coordinate
-    self.tekst = tekst
+    self.title = title
+    self.categorie = categorie
 
     }
 }

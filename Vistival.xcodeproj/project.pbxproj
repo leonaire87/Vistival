@@ -14,7 +14,6 @@
 		4168A6E623E18B4100B45718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4168A6E523E18B4100B45718 /* Assets.xcassets */; };
 		4168A6E923E18B4100B45718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4168A6E723E18B4100B45718 /* LaunchScreen.storyboard */; };
 		4168A6F123E1933400B45718 /* mainstage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4168A6F023E1933400B45718 /* mainstage.jpg */; };
-		4168A6F323E1962700B45718 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4168A6F223E1962600B45718 /* logo.jpg */; };
 		4168A6FB23E1BD2000B45718 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168A6FA23E1BD2000B45718 /* Artist.swift */; };
 		4168A6FD23E1CCD400B45718 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168A6FC23E1CCD400B45718 /* DataSource.swift */; };
 		41C185DE23E2DBF100DD4608 /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C185DD23E2DBF100DD4608 /* ArtistTableViewCell.swift */; };
@@ -22,6 +21,11 @@
 		41C185E223E3156A00DD4608 /* MapPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C185E123E3156A00DD4608 /* MapPoints.swift */; };
 		41C185E423E317F300DD4608 /* DataSourceMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C185E323E317F300DD4608 /* DataSourceMap.swift */; };
 		41C185E623E318AA00DD4608 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C185E523E318AA00DD4608 /* MapViewController.swift */; };
+		41C185E823E4681600DD4608 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C185E723E4681500DD4608 /* logo.png */; };
+		41C185EE23E46F7200DD4608 /* festival1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 41C185EA23E46F7100DD4608 /* festival1.jpeg */; };
+		41C185EF23E46F7200DD4608 /* festival4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 41C185EB23E46F7100DD4608 /* festival4.jpeg */; };
+		41C185F023E46F7200DD4608 /* festival3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 41C185EC23E46F7100DD4608 /* festival3.jpeg */; };
+		41C185F123E46F7200DD4608 /* festival2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 41C185ED23E46F7100DD4608 /* festival2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +38,6 @@
 		4168A6E823E18B4100B45718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4168A6EA23E18B4100B45718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4168A6F023E1933400B45718 /* mainstage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainstage.jpg; sourceTree = "<group>"; };
-		4168A6F223E1962600B45718 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 		4168A6FA23E1BD2000B45718 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		4168A6FC23E1CCD400B45718 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		41C185DD23E2DBF100DD4608 /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
@@ -42,6 +45,12 @@
 		41C185E123E3156A00DD4608 /* MapPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPoints.swift; sourceTree = "<group>"; };
 		41C185E323E317F300DD4608 /* DataSourceMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMap.swift; sourceTree = "<group>"; };
 		41C185E523E318AA00DD4608 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		41C185E723E4681500DD4608 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../Downloads/logo.png; sourceTree = "<group>"; };
+		41C185E923E4682F00DD4608 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		41C185EA23E46F7100DD4608 /* festival1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = festival1.jpeg; path = ../../../../Downloads/festival1.jpeg; sourceTree = "<group>"; };
+		41C185EB23E46F7100DD4608 /* festival4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = festival4.jpeg; path = ../../../../Downloads/festival4.jpeg; sourceTree = "<group>"; };
+		41C185EC23E46F7100DD4608 /* festival3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = festival3.jpeg; path = ../../../../Downloads/festival3.jpeg; sourceTree = "<group>"; };
+		41C185ED23E46F7100DD4608 /* festival2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = festival2.jpeg; path = ../../../../Downloads/festival2.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,11 @@
 		4168A6D023E18B3E00B45718 = {
 			isa = PBXGroup;
 			children = (
+				41C185EA23E46F7100DD4608 /* festival1.jpeg */,
+				41C185ED23E46F7100DD4608 /* festival2.jpeg */,
+				41C185EC23E46F7100DD4608 /* festival3.jpeg */,
+				41C185EB23E46F7100DD4608 /* festival4.jpeg */,
+				41C185E723E4681500DD4608 /* logo.png */,
 				4168A6DB23E18B3E00B45718 /* Vistival */,
 				4168A6DA23E18B3E00B45718 /* Products */,
 			);
@@ -82,8 +96,8 @@
 				4168A6E223E18B3E00B45718 /* Main.storyboard */,
 				4168A6E523E18B4100B45718 /* Assets.xcassets */,
 				4168A6E723E18B4100B45718 /* LaunchScreen.storyboard */,
+				41C185E923E4682F00DD4608 /* logo.png */,
 				4168A6EA23E18B4100B45718 /* Info.plist */,
-				4168A6F223E1962600B45718 /* logo.jpg */,
 				4168A6F023E1933400B45718 /* mainstage.jpg */,
 			);
 			path = Vistival;
@@ -177,10 +191,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4168A6E923E18B4100B45718 /* LaunchScreen.storyboard in Resources */,
-				4168A6F323E1962700B45718 /* logo.jpg in Resources */,
+				41C185EF23E46F7200DD4608 /* festival4.jpeg in Resources */,
+				41C185E823E4681600DD4608 /* logo.png in Resources */,
+				41C185F123E46F7200DD4608 /* festival2.jpeg in Resources */,
+				41C185F023E46F7200DD4608 /* festival3.jpeg in Resources */,
 				4168A6F123E1933400B45718 /* mainstage.jpg in Resources */,
 				4168A6E623E18B4100B45718 /* Assets.xcassets in Resources */,
 				4168A6E423E18B3E00B45718 /* Main.storyboard in Resources */,
+				41C185EE23E46F7200DD4608 /* festival1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
